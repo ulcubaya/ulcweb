@@ -99,3 +99,26 @@
   }
 }
 
+.mobile-hero-images {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .hero-bg {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-color: #8fb3c9;
+    }
+
+    .mobile-hero-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-hero-images img {
+        width: 100%;
+        height: auto;
+    }
+}
